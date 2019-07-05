@@ -1,0 +1,23 @@
+﻿@page
+@model IndexModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="@Url.Content("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css")" rel="stylesheet" type="text/css" />
+    <script src="@Url.Content("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js")" type="text/javascript"></script>
+    <title>本一覧</title>
+</head>
+<body>
+    <div class="text-center">
+        <button class="btn btn-success" onclick="location.href='./User/Index'">利用者一覧</button>
+        <button class="btn btn-primary" onclick="location.href='./Book/Index'">本一覧</button>
+    </div>
+</body>
+</html>
+
